@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.items-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.draggable-item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  cursor: grab;
+  margin: 0 10px;
+}
+
+.dropzone {
+  width: 600px;
+  height: 400px;
+  background-color: lightgrey;
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.dropzone p {
+  font-size: 20px;
+  color: #666;
+}
